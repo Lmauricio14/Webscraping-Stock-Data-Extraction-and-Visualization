@@ -1,0 +1,51 @@
+# Webscraping Stock Data Extraction and Visualization
+
+## Description
+
+Hi, I'm Eduardo. Welcome to my project repository for the **Python Project for Data Science IBM Certification**. This project is centered around the crucial aspect of data science that is extracting essential data from datasets and visually representing this data to enable informed decision-making. In this particular case, we focus on extracting and visualizing stock data for two significant market players: _Tesla_ and _GameStop_.
+
+The project leverages Python for both webscraping to extract revenue data and utilizing the `yfinance` library to fetch historical stock data. The visualization part is adeptly handled by the `plotly` library, enabling interactive and insightful charts that detail the financial journey of these companies over time.
+
+## Project Objectives
+
+- **Extract Stock Data**: Use `yfinance` to fetch historical data for Tesla and GameStop stocks.
+- **Webscraping for Revenue Data**: Apply `BeautifulSoup` to scrape revenue data from the web.
+- **Visualize Data**: Employ `plotly` to create interactive graphs that represent stock prices and revenue trends comprehensively.
+
+## Technologies
+
+This project is implemented using:
+- **Python 3**
+- **Pandas** for data manipulation
+- **yfinance** for stock data extraction
+- **BeautifulSoup** for webscraping
+- **Plotly** for interactive data visualization
+
+## Setup and Installation
+
+1. Ensure you have Python 3.x installed on your machine.
+2. Clone this repository or download the Jupyter Notebook file.
+3. Install required Python libraries:
+   ```
+   pip install yfinance pandas plotly requests beautifulsoup4
+   ```
+4. Open the Jupyter Notebook in your preferred environment (e.g., JupyterLab, VSCode, etc.)
+
+## How to Use
+
+1. Navigate through the notebook `Stock_Data_Extraction_and_Visualization.ipynb`.
+2. Run the cells sequentially to see the extraction and visualization processes in action.
+3. Modify the ticker symbols in the notebook to analyze other stocks.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests to contribute to this project. Whether it's adding new features, improving the documentation, or fixing bugs, your contributions are welcome!
+
+
+## Acknowledgements
+
+- Joseph Santarcangelo and Azim Hirjani for their initial work and guidance on this project.
+- The `yfinance` and `plotly` libraries for providing the tools necessary to extract and visualize stock data.
+
+
+Happy Investing!
