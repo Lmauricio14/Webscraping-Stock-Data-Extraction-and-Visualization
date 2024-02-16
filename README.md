@@ -21,27 +21,6 @@ This project is implemented using:
 - **BeautifulSoup** for webscraping
 - **Plotly** for interactive data visualization
 
-## Setup and Installation
-
-1. Ensure you have Python 3.x installed on your machine.
-2. Clone this repository or download the Jupyter Notebook file.
-3. Install required Python libraries:
-   ```
-   pip install yfinance pandas plotly requests beautifulsoup4
-   ```
-4. Open the Jupyter Notebook in your preferred environment (e.g., JupyterLab, VSCode, etc.)
-
-## How to Use
-
-1. Navigate through the notebook `Stock_Data_Extraction_and_Visualization.ipynb`.
-2. Run the cells sequentially to see the extraction and visualization processes in action.
-3. Modify the ticker symbols in the notebook to analyze other stocks.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests to contribute to this project. Whether it's adding new features, improving the documentation, or fixing bugs, your contributions are welcome!
-
-
 ## Acknowledgements
 
 - Joseph Santarcangelo and Azim Hirjani for their initial work and guidance on this project.
